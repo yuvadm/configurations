@@ -29,7 +29,6 @@
 	st = status
 	cam = commit -a -m
 	cm = commit -m
-	bla = status
 	br = branch
 	com = checkout master
 	co = checkout
