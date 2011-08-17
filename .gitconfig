@@ -34,3 +34,4 @@
 	co = checkout
 	lg = ! git --no-pager log --oneline --graph -n 18 --decorate
 	pure = pull --rebase
+	diffc = diff --cached
