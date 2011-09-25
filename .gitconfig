@@ -25,6 +25,7 @@
         added = yellow
         changed = green
         untracked = cyan
+
 [alias]
 	st = status
 	cam = commit -a -m
