@@ -37,3 +37,6 @@
 	pure = pull --rebase
 	diffc = diff --cached
 	cfd = clean -fd
+	assun = update-index --assume-unchanged
+	noassun = update-index --no-assume-unchanged
+
