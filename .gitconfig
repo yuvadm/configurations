@@ -33,6 +33,7 @@
 	br = branch
 	com = checkout master
 	co = checkout
+	cob = checkout -b
 	lg = ! git --no-pager log --oneline --graph -n 18 --decorate
 	pure = pull --rebase
 	diffc = diff --cached
