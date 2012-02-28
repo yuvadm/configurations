@@ -41,4 +41,7 @@
 	assun = update-index --assume-unchanged
 	noassun = update-index --no-assume-unchanged
 	rh = reset HEAD
+  cmend = commit --amend -C HEAD
+  camend = commit --amend -a -C HEAD
+
 
