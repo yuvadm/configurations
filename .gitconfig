@@ -36,12 +36,14 @@
 	cob = checkout -b
 	lg = ! git --no-pager log --oneline --graph -n 18 --decorate
 	pure = pull --rebase
-	diffc = diff --cached
+        d = diff
+	dc = diff --cached
 	cfd = clean -fd
 	assun = update-index --assume-unchanged
 	noassun = update-index --no-assume-unchanged
 	rh = reset HEAD
-  cmend = commit --amend -C HEAD
-  camend = commit --amend -a -C HEAD
+        cmend = commit --amend -C HEAD
+        camend = commit --amend -a -C HEAD
+	ca = commit -a
 
 
