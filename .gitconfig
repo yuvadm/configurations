@@ -46,4 +46,5 @@
         camend = commit --amend -a -C HEAD
 	ca = commit -a
 
-
+[core]
+	excludesfile = ~/.gitignore
