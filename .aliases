@@ -1,2 +1,9 @@
 alias ll="ls -la"
+alias k9="kill -9"
 
+alias quicksrv="python -m SimpleHTTPServer"
+alias cheapvpn="sshuttle --dns -r ubuntu@athena 0/0"
+
+function dotorrent {
+    scp $1 ubuntu@athena:~/torrents
+}
