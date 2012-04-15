@@ -3,6 +3,7 @@ alias k9="kill -9"
 
 alias quicksrv="python -m SimpleHTTPServer"
 alias cheapvpn="sshuttle --dns -r ubuntu@athena 0/0"
+alias wgetdir='wget -e robots=off -r --no-parent --reject "index.html*"'
 
 function dotorrent {
     scp $1 ubuntu@athena:~/torrents
