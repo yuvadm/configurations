@@ -45,6 +45,7 @@
         cmend = commit --amend -C HEAD
         camend = commit --amend -a -C HEAD
 	ca = commit -a
+        brt = branch --track
 
 [core]
 	excludesfile = ~/.gitignore
