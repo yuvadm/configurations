@@ -15,7 +15,7 @@ ZSH_THEME="robbyrussell"
 CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -33,6 +33,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# DO NOT AUTOCORRECT
+unsetopt correct_all
+
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
@@ -43,3 +46,5 @@ else
 fi
 
 export NODE_PATH=/usr/local/lib/node_modules
+
+source "`brew --prefix grc`/etc/grc.bashrc"
