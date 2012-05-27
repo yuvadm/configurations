@@ -46,5 +46,6 @@ else
 fi
 
 export NODE_PATH=/usr/local/lib/node_modules
+export PIP_DOWNLOAD_CACHE=$HOME/Library/Caches/pip-downloads
 
 source "`brew --prefix grc`/etc/grc.bashrc"
