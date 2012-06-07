@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
 if [[ -r /usr/local/share/python/virtualenvwrapper.sh ]]; then
     source /usr/local/share/python/virtualenvwrapper.sh
