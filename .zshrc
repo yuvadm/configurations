@@ -49,3 +49,7 @@ export NODE_PATH=/usr/local/lib/node_modules
 export PIP_DOWNLOAD_CACHE=$HOME/Library/Caches/pip-downloads
 
 source "`brew --prefix grc`/etc/grc.bashrc"
+
+source /usr/local/Cellar/autoenv/0.1.0/activate.sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
