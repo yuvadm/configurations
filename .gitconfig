@@ -49,3 +49,4 @@
 
 [core]
 	excludesfile = ~/.gitignore
+        editor = vim
