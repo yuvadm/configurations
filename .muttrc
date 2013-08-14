@@ -46,4 +46,4 @@ macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred mes
 macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 
 # Hebrew support
-set display_filter=bidiv
+set display_filter=fribidi
